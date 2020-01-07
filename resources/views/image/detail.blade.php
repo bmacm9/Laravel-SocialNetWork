@@ -29,9 +29,7 @@
                             <p>{{ $image->description }}</p>
                         </div>
                         <div class="comments">
-                            <div class="likes">
-                                <img src="{{ asset('img/heart-black.png') }}">
-                            </div>
+                            @include('includes.likes')
                             <h2 class="h2-comments">
                                 Comentarios ({{ count($image->comments) }})
                             </h2>

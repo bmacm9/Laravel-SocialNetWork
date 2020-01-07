@@ -93,3 +93,7 @@
  .form-comments{
      margin-bottom: 3vh;
  }
+ .number-likes{
+     color: gray;
+     font-size: 15px;
+ }

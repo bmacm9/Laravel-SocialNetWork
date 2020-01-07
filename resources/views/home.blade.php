@@ -37,9 +37,7 @@
                         </div>
                     </div>
                     <div class="comments">
-                        <div class="likes">
-                            <img src="{{ asset('img/heart-black.png') }}">
-                        </div>
+                        @include('includes.likes')
                         <a href="{{ route('image.detail', ['id'=>$image->id]) }}" class="btn btn-warning btn-sm btn-comments">
                             Comentarios ({{ count($image->comments) }})
                         </a>

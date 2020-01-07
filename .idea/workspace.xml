@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="877bfcc3-21ae-4d5f-9acf-7b59724ea701" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/image/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/image/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +201,7 @@
       <workItem from="1577128796284" duration="160000" />
       <workItem from="1578233642614" duration="1448000" />
       <workItem from="1578303078816" duration="16162000" />
-      <workItem from="1578388375038" duration="15767000" />
+      <workItem from="1578388375038" duration="19798000" />
     </task>
     <servers />
   </component>
@@ -219,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1576781567000" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1578412995633">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1578428613132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578412995633" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578428613132" />
     <state x="190" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578388375686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
