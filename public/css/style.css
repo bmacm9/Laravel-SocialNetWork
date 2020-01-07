@@ -1,0 +1,59 @@
+.avatar{
+    width: 40px;
+    margin-bottom: 0.5em;
+    border-radius: 900px;
+}
+
+.card-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+
+.data-user{
+    line-height: 45px;
+    margin-left: 1em;
+}
+
+.pub_image{
+    margin-bottom: 2vh;
+}
+
+.image-container{
+    width:100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+
+}
+
+.pub_image .card-body{
+    padding: 0px;
+}
+
+.nickname{
+    color:gray;
+}
+ .pub_image .description{
+     padding: 20px;
+     padding-bottom: 0;
+     padding-top: 0;
+ }
+
+.likes img{
+    width: 20px;
+
+}
+
+.likes{
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+ .btn-comments{
+     margin: 20px;
+     margin-top: 0;
+ }

@@ -1,0 +1,715 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #4E7BA8;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+section {
+    margin-top: -20em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 392px;
+    margin-left: -196px
+}
+
+h1 {
+    background: transparent url(https://web.archive.org/web/20100407014653im_/http://estaticosak1.tuenti.com//layout/web2-Zero/images/layout/login_logo.35858.png) no-repeat center;
+    text-indent: -20000px;
+    height: 40px;
+}
+
+h1 a {
+    display: block;
+    height: 45px;
+    width: 300px;
+    text-indent: -5000px;
+}
+
+a {
+    color: #2C61A3;
+    text-decoration: none;
+}
+
+form {
+    background: #FFF;
+    padding: 15px;
+    width: auto;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    height: auto;
+}
+
+section footer a {
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+    display: block;
+    font-size: 11px;
+}
+
+body footer {
+    width: auto;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+footer ul {
+    text-align: center;
+    color: #D8E8F3;
+    padding: 10px 0;
+    margin: 20px;
+    border-top: 1px solid #476F95;
+}
+
+footer ul li {
+    width: auto;
+    display: inline;
+    float: right;
+    margin: 0 0 0 10px;
+    line-height: 11px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100.01%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+:focus {
+    outline: 0;
+}
+
+/* Remove the style of the lists */
+
+ul {
+    list-style: none;
+}
+
+/* Handle annoying spaces with form elements */
+
+input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background: #4E7BA8 url(https://web.archive.org/web/20100407014653im_/http://estaticosak1.tuenti.com//layout/web2-Zero/images/layout/login_background.35794.png) repeat-x;
+    color: #333;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+h1 {
+    text-indent: -20000px;
+    height: 40px;
+}
+
+h1 a {
+    display: block;
+    height: 45px;
+    width: 300px;
+    text-indent: -5000px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 14px;
+    padding: 0px 0px 8px 0px;
+    margin: 5px 0 0;
+    color: #333;
+}
+
+h3 {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #9A9A9A;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #8A8A8A;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: #2C61A3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Login */
+
+div.canvas.login, div.needInvitesCanvas, div.canvas.password, div.canvas.legal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 392px;
+    margin-left: -196px;
+    margin-top: -145px;
+}
+
+.canvas.legal .body div.legalInfo {
+    padding: 15px;
+    background: #FFF;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-align: left;
+}
+
+.canvas.legal .body div.legalInfo p {
+    margin: 12px 0 0 0;
+    font-size: 11px;
+    color: #666;
+}
+
+/* Login Form */
+
+.canvas.login .body, div.canvas.password .body, div.canvas.legal .body {
+    margin: auto;
+    width: 380px;
+    background: #4C759B;
+    border: 6px solid #4C759B;
+    margin: 15px 0 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.canvas .body form {
+    background: #FFF;
+    padding: 15px;
+    width: auto;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.canvas .body form fieldset {
+    padding: 10px 0;
+}
+
+.canvas .body form label {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    padding: 8px 0;
+    text-align: right;
+    width: 70px;
+    color: #7E7E7E;
+    font-weight: normal;
+}
+
+.canvas .body form label.rememberMe {
+    width: 230px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 17px;
+    font-size: 11px;
+    height: 26px;
+}
+
+.canvas .body form input {
+    margin: 0;
+}
+
+.canvas .body form input.email {
+    width: 240px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.canvas .body form input.password {
+    width: 240px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.canvas .body form input.captcha {
+    width: 140px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0 4px 0 0;
+}
+
+.canvas .body form input.error {
+    width: 240px;
+    padding: 5px;
+    font-size: 15px;
+    border-color: #E58080;
+}
+
+.canvas .body form input.rememberMe {
+    background: none;
+    width: auto;
+    border: none;
+    font-size: small;
+    margin-right: 3px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.canvas .body form span.input {
+    padding: 3px;
+    background-color: #F5F5F5;
+    display: inline-block;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width: 252px;
+}
+
+.canvas .body form ul {}
+
+.canvas .body form ul li {
+    clear: both;
+    margin: 0 0 6px 0;
+    height: 1%;
+    overflow: hidden;
+}
+
+.canvas .body form ul li.indent {
+    padding: 2px 0 0 80px;
+    margin: 0px;
+}
+
+.canvas .body form ul li.buttons {
+    padding: 0 0 0 80px;
+    text-align: left;
+    margin: 0;
+}
+
+.canvas p {
+    margin: 0 0 10px 0;
+}
+
+.canvas .errorMessage {
+    background-color: #FFFFFF;
+    margin: 15px 0 0 0;
+    border: 6px solid #4C759B;
+    position: absolute;
+    text-align: center;
+    width: 380px;
+    height: 188px;
+    z-index: 10000000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.canvas .errorMessage.deactivate, .canvas .errorMessage.deactivate .feedBack .feedBackBody {
+    height: auto;
+}
+
+.canvas .errorMessage.reactivate {
+    position: static;
+}
+
+.canvas .feedBack {
+    padding: 1px;
+    margin: 0;
+    background-color: #FFF;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.canvas .feedBack .feedBackContent {
+    background: #FFCA64 url(https://web.archive.org/web/20100407014653im_/http://estaticosak1.tuenti.com//layout/web2-Zero/images/icon/feedback.40613.png) no-repeat -80px 0;
+}
+
+.canvas .feedBack .feedBackBody {
+    margin-left: 39px;
+    border-color: #FFB545;
+    overflow: hidden;
+    border-left: 1px solid #FFF;
+    background-color: #FFF;
+    padding: 12px 15px 0;
+    font-size: 12px;
+    height: 174px;
+    width: 308px;
+    text-align: left;
+}
+
+.feedBack .feedBackBody h3 {
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 2px 0 8px 0;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.feedBack .feedBackBody p {
+    padding: 0 0 10px 0;
+}
+
+/* Logo */
+
+div.infoMessage {
+    background-color: #FFF;
+    padding: 0 15px 5px;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+}
+
+div.infoMessage {
+    width: 280px;
+    position: absolute;
+    padding: 5px 10px;
+    color: #333;
+}
+
+div.login form {
+    height: auto;
+}
+
+.needInvitesCanvas div.login {
+    padding-left: 10px;
+}
+
+div.login form blockquote {
+    margin: 2px 0 2px 78px;
+    color: #8A8A8A;
+}
+
+/* Captcha */
+
+div.captcha {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #CCCCCC;
+    padding: 8px 8px 4px 8px;
+    margin: 10px 0 10px 80px;
+    width: 140px;
+    position: relative;
+}
+
+div.captcha img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+}
+
+div.captcha span.arrow {
+    background: url(https://web.archive.org/web/20100407014653im_/http://estaticosak1.tuenti.com/layout/web2-Zero/images/layout/structure.41960.png) no-repeat scroll 0 -2016px;
+    height: 6px;
+    left: 72px;
+    position: absolute;
+    top: -6px;
+    width: 11px;
+}
+
+span.error {
+    color: #CC0000;
+}
+
+input.link {
+    background: none;
+    border: 0;
+    padding: 0;
+    font-size: 11px;
+    color: #2C61A3;
+    height: 13px;
+    text-align: left;
+}
+
+input.link:hover, input.link:active {
+    border: 0;
+    color: #2C61A3;
+    cursor: pointer;
+    border-bottom: 1px solid #2C61A3;
+    outline: 0;
+}
+
+input.link::-moz-focus-inner {
+    border: 0;
+}
+
+/* JavaScript and Cookies Messages*/
+
+#errorEmail, #errorPass, #errorCookies, #errorRememeberEmail, #errorCode, #problemLogin {
+    display: none;
+}
+
+#problemLogin {
+    height: 145px;
+}
+
+#accountReactivation {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
+
+#problemLogin h4 {
+    color: #333;
+    padding-top: 15px;
+}
+
+#problemLogin p {
+    padding-bottom: 5px;
+}
+
+/* Remember Password */
+
+#rememberPassword, #optionsBack {
+    display: none;
+}
+
+.confirmationMessage h5, #rememberPassword h5, .needInvite h5 {
+    color: #8CC3FB;
+    margin-bottom: 0.5em;
+}
+
+.confirmationMessage p {
+    color: #333;
+}
+
+/* Need Invite */
+
+.needInvite p {
+    margin-bottom: 1em;
+}
+
+.needInvite label {
+    display: block;
+}
+
+.needInvite label {
+    color: #8A8A8A;
+}
+
+.securityImage {
+    border: 1px solid #DCDCDC;
+    padding: 3px;
+    margin: 0 3em;
+}
+
+/* Inside login version */
+
+ul.wantsEnter {
+    display: none;
+    text-align: center;
+}
+
+ul.wantsEnter li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
+
+.passwordCanvas ul.wantsEnter li.first, .needInvitesCanvas ul.wantsEnter li.first {
+    padding-left: 10px;
+}
+
+ul.wantsEnter li a {
+    color: #FFF;
+    padding: 6px 6px;
+    display: block;
+    font-weight: normal;
+    position: relative;
+}
+
+ul.wantsEnter a:hover {
+    margin-top: -1px;
+    padding-top: 7px;
+}
+
+/* Submenu list */
+
+.subMenu {
+    width: auto;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+.subMenu ul {
+    text-align: center;
+    color: #D8E8F3;
+    padding: 10px 0;
+    margin: 20px;
+    border-top: 1px solid #476F95;
+}
+
+.subMenu ul li {
+    width: auto;
+    display: inline;
+    float: right;
+    margin: 0 0 0 10px;
+    line-height: 11px;
+}
+
+.subMenu ul li.copy {
+    font-weight: bold;
+    margin: 0 12px 0 0;
+    float: left;
+    color: #FFF;
+}
+
+.subMenu ul li.language {
+    color: #FFF;
+    float: left;
+}
+
+.subMenu ul li a {
+    color: #B6CDDD;
+}
+
+.subMenu ul li a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+/* Note Alert */
+
+.note {
+    line-height: 12px;
+    margin-bottom: 10px;
+    background-color: #FFEEE3;
+    border: 1px solid #FFCECE;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 10px;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+
+.note.alert {
+    background-color: #FFFBD9;
+    border: 1px solid #F8E1B9;
+    padding: 3px 8px;
+    text-align: center;
+}
+
+input, textarea, select {
+    padding: 4px;
+    color: #333;
+    font: 12px Arial, Helvetica, sans-serif;
+    border: 1px solid #C9C9C9;
+    background: #FFF url(https://web.archive.org/web/20100407014653im_/http://estaticosak1.tuenti.com/layout/web2-Zero/images/layout/button.42107.png) repeat-x 0 -492px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+input.focus, textarea.focus, select.focus, form input.active, form input.hover, input:focus, textarea:focus, select:focus {
+    border: 1px solid #94B4D1;
+    color: #333;
+}
+
+form input {
+    vertical-align: middle;
+}
+
+form input.error, form textarea.error, form span.error input, form span.error label {
+    border: 1px solid #E58080;
+    color: #CC0000;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form label span {
+    font-weight: normal;
+    color: #666;
+}
+
+button, input.submit {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    white-space: nowrap;
+    overflow: visible;
+    text-shadow: 0 1px 0 #FFF;
+    vertical-align: bottom;
+    height: 24px;
+    width: 80px;
+    color: #666;
+    font-size: 11px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    text-shadow: 0 -1px 0 #275D87;
+}
+
+
+input.submit:hover {
+    background-position: 0 -24px;
+}
+
+input.submit:active {
+    background-position: 0 -48px;
+}
+
+div.login input.submit, div.login button {
+    width: 80px;
+    font-size: 11px;
+}
+
+button.send, input.submit {
+    width: 80px;
+    background: url(https://web.archive.org/web/20100407014653im_/http://estaticosak1.tuenti.com//layout/web2-Zero/images/layout/button_login.35861.png) repeat-x;
+    color: #FFF;
+}
+
+button.send span, input.submit {
+    padding: 0;
+}
+
+button.send.disabled {
+    color: #FFF;
+}
+
+button.send.disabled:hover {
+    border-color: #3B7EBB;
+}
+
+/* Feedback */
+
+.warningMessage {
+    border: 6px solid #4C759B;
+    border-top: 0;
+    width: 940px;
+    text-align: center;
+    margin: 0 auto;
+}
