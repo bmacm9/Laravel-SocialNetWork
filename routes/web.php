@@ -11,34 +11,6 @@
 |
 */
 
-//use App\Image;
-
-//Route::get('/', function () {
-/*public function ORM(){
-
-    $images = Image::all();
-    foreach ($images as $image){
-        echo "<div>";
-        echo $image->image_path . "<br/>";
-        echo $image->description . "<br/>";
-        echo $image->user->name. ' ' . $image->user->surname . ' ' . '<br/>';
-        if(count($image->comments)>0) {
-            echo '<h4>Comentarios</h4>';
-            foreach ($image->comments as $comment) {
-                echo '<strong>' . $comment->user->name . ' ' . $comment->user->surname . ' comentó: ' . $comment->content . '</strong> <br/>';
-            }
-        }
-
-        echo 'Likes: ' . count($image->likes);
-        echo "<hr/>";
-        echo "</div>";
-    }
-        die();
-}*/
-
-    //return view('welcome');
-//});
-
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
@@ -66,3 +38,7 @@ Route::get('/comment/delete/{id}', 'CommentController@delete')->name('comment.de
 Route::get('/like/{image_id}', 'LikeController@like')->name('like.save');
 
 Route::get('/dislike/{image_id}', 'LikeController@dislike')->name('like.delete');
+
+Route::get('/likes', 'LikeController@index')->name('likes');
+
+Route::get('/perfil/{id}', 'UserController@profile')->name('profile');

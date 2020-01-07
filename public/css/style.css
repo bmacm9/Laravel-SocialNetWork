@@ -97,3 +97,11 @@
      color: gray;
      font-size: 15px;
  }
+
+ .data-user a{
+     color: black;
+ }
+
+ .image-profile{
+     max-width: 200px;
+ }
