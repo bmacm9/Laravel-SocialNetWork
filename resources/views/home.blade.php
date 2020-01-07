@@ -22,19 +22,28 @@
                     <div class="image-container">
                         <img src="{{ route('image.file', ['filename'=>$image->image_path]) }}">
                     </div>
-                    <div class="likes">
-                        <img src="{{ asset('img/heart-black.png') }}">
-                    </div>
+
                     <div class="description">
                         <span class="nickname">
                             {{ '@'.$image->user->nick }}
                         </span>
-                        <p>
-                            {{ $image->description }}
-                        </p>
-
+                        <div class ="content-description">
+                            <p>
+                                {{ $image->description }}
+                            </p>
+                            <p class="created-at">
+                                {{ \FormatTime::LongTimeFilter($image->created_at) }}
+                            </p>
+                        </div>
                     </div>
-                    <a href="" class="btn btn-warning btn-comments">Comentarios</a>
+                    <div class="comments">
+                        <div class="likes">
+                            <img src="{{ asset('img/heart-black.png') }}">
+                        </div>
+                        <a href="{{ route('image.detail', ['id'=>$image->id]) }}" class="btn btn-warning btn-sm btn-comments">
+                            Comentarios ({{ count($image->comments) }})
+                        </a>
+                    </div>
                 </div>
             </div>
             @endforeach

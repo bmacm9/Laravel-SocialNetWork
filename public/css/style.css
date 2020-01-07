@@ -21,7 +21,7 @@
 
 .image-container{
     width:100%;
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
 }
 .image-container img{
@@ -31,6 +31,12 @@
 
 .pub_image .card-body{
     padding: 0px;
+}
+
+.comments{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
 }
 
 .nickname{
@@ -50,10 +56,36 @@
 .likes{
     padding: 20px;
     padding-bottom: 0;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
  .btn-comments{
      margin: 20px;
      margin-top: 0;
+ }
+ .content-description{
+     display: flex;
+     flex-flow: row;
+     justify-content: space-between;
+ }
+
+ .created-at{
+     color: gray;
+     font-size: 8pt;
+ }
+
+ .btn-warning{
+     background-color: #1d68a7;
+     color: white;
+ }
+
+ .form-comments{
+     padding: 20px;
+ }
+
+ .h2-comments{
+     margin-left: 20px;
+ }
+ hr{
+     margin-top: -20px;
  }
