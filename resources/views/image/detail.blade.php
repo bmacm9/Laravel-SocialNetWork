@@ -38,7 +38,7 @@
                         </div>
                         <div class="form-comments">
                             <hr/>
-                            <form method="post" action="">
+                            <form class="form-comments" method="post" action="{{ route('comment.save') }}">
                                 @csrf
                                 <input type="hidden" name="image_id" value="{{ $image->id }}">
                                 <p>
@@ -48,6 +48,19 @@
                                     Enviar
                                 </button>
                             </form>
+                            <hr/>
+
+                            @foreach($image->comments as $comment)
+                                <div class="comment">
+                                    <span class="nickname">{{ '@'.$comment->user->nick }}</span>
+                                    <span class = "nickname date">{{ ' | '.\FormatTime::LongTimeFilter($comment->created_at) }}</span>
+                                    @if(Auth::check() && ($comment->user_id == Auth::user()->id || $comment->image->user_id == Auth::user()->id))
+                                        <a class="btn btn-sm btn-danger" href="{{ route('comment.delete', [ 'id' => $comment->id]) }}">Eliminar</a>
+                                    @endif
+                                    <p>{{ $comment->content }}</p>
+                                    <hr/>
+                                </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
